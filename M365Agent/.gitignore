@@ -69,5 +69,5 @@ $RECYCLE.BIN/
 *.DS_Store
 
 # Env user files (local/dev)
-.env.dev.user
-.env.local.user
+env/.env.dev.user
+env/.env.local.user
