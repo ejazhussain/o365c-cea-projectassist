@@ -1,0 +1,74 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.22/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.22",
+    "version": "1.2.1",
+    "id": "42B9AF63-4F66-43CF-A5F5-AB499BF403B7",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "https://www.example.com",
+        "privacyUrl": "https://www.example.com/privacy",
+        "termsOfUseUrl": "https://www.example.com/termofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Project Assist Agent",
+        "full": "Office365 Clinic Project Assist Agent"
+    },
+    "description": {
+        "short": "A Teams app for project assistance.",
+        "full": "The Office365 Clinic Project Assist Agent helps users manage projects, tasks, and integrations with Microsoft services like Graph and Azure OpenAI."
+    },
+    "accentColor": "#FFFFFF",
+    "copilotAgents": {
+        "customEngineAgents": [
+            {
+                "id": "eb8c1f53-5cf4-4e1c-adc5-f4103c76f12f",
+                "type": "bot"
+            }
+        ]
+    },
+    "bots": [
+        {
+            "botId": "eb8c1f53-5cf4-4e1c-adc5-f4103c76f12f",
+            "scopes": [
+                "personal",
+                "team",
+                "groupChat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false,
+            "commandLists": [
+                {
+                    "scopes": [
+                        "personal"
+                    ],
+                    "commands": [                       
+                        {
+                            "title": "Fetch overdue tasks.",
+                            "description": "Show all overdue tasks"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+  "validDomains": [
+    "token.botframework.com",
+    "47lklgdh-5130.uks1.devtunnels.ms",
+    "*.uks1.devtunnels.ms"
+  ],
+    "webApplicationInfo": {
+        "id": "eb8c1f53-5cf4-4e1c-adc5-f4103c76f12f",
+        "resource": "api://botid-eb8c1f53-5cf4-4e1c-adc5-f4103c76f12f"
+    }
+}

@@ -1,0 +1,23 @@
+debug Telemetry: agents-playground-cli/cliStart {"cleanProperties":{"isExec":"true","argv":"<REDACTED: user-file-path>,<REDACTED: user-file-path>,start"}}
+
+log Listening on 56150
+log Microsoft 365 Agents Playground is being launched for you to debug the app: http://localhost:56150
+debug started web socket client
+debug started web socket client
+log Waiting for connection of endpoint: http://127.0.0.1:5130/api/messages
+log waiting for 1 resources: http://127.0.0.1:5130/api/messages
+log wait-on(25900) complete
+debug Telemetry: agents-playground-server/getConfig {"cleanProperties":{"internalConfig":"{\"locale\":\"en-GB\",\"localTimezone\":\"Europe/London\",\"channelId\":\"emulator\"}"}}
+
+debug Telemetry: agents-playground-server/sendActivity {"cleanProperties":{"activityType":"conversationUpdate","conversationId":"adef6968-77be-424e-b456-612af741bc33","headers":"{\"x-ms-agents-playground\":\"true\"}"}}
+
+debug Telemetry: agents-playground-server/configAuth {"cleanProperties":{"authConfig":"{\"clientId\":\"eb8c1f53-5cf4-4e1c-adc5-f4103c76f12f\",\"clientSecret\":\"<REDACTED: credential>\",\"tenantId\":\"3f4d536c-9ebc-4eb1-8304-0f0f2f840b5d\"}"}}
+
+log Authentication enabled, client ID: eb8c1f53-5cf4-4e1c-adc5-f4103c76f12f, tenant ID: 3f4d536c-9ebc-4eb1-8304-0f0f2f840b5d.
+debug Telemetry: agents-playground-server/configAuth {"cleanProperties":{"authConfig":"{\"clientId\":\"eb8c1f53-5cf4-4e1c-adc5-f4103c76f12f\",\"clientSecret\":\"<REDACTED: credential>\",\"tenantId\":\"3f4d536c-9ebc-4eb1-8304-0f0f2f840b5d\"}"}}
+
+log Authentication enabled, client ID: eb8c1f53-5cf4-4e1c-adc5-f4103c76f12f, tenant ID: 3f4d536c-9ebc-4eb1-8304-0f0f2f840b5d.
+debug Telemetry: agents-playground-server/sendActivity {"cleanProperties":{"activityType":"message","conversationId":"adef6968-77be-424e-b456-612af741bc33","headers":"{\"Authorization\":\"Bearer <REDACTED: credential>.<REDACTED: credential>.<REDACTED: credential>\",\"x-ms-agents-playground\":\"true\"}"}}
+
+info fetching keys from https://login.microsoftonline.com/3f4d536c-9ebc-4eb1-8304-0f0f2f840b5d/discovery/v2.0/keys
+info fetching keys from https://login.microsoftonline.com/3f4d536c-9ebc-4eb1-8304-0f0f2f840b5d/discovery/v2.0/keys

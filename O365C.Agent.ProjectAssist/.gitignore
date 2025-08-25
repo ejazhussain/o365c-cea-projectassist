@@ -1,0 +1,69 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.vs/
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# DotCover
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# Visual Studio Code
+.vscode/
+
+# Others
+*.log
+*.tlog
+*.cache
+*.pdb
+*.dbmdl
+*.bak
+*.backup
+*.tmp
+*.temp
+*.vspscc
+*.vssscc
+*.vsscc
+*.scc
+
+# Azure Pipelines
+.azure-pipelines/
+
+# Local history for Visual Studio
+.localhistory/
+
+# Windows image file caches
+Thumbs.db
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Dotnet tool restore
+.dotnet_tool_manifest.json
+
+# Others
+*.swp
+*.swo
+*.DS_Store
