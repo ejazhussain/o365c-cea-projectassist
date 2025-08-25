@@ -67,3 +67,7 @@ $RECYCLE.BIN/
 *.swp
 *.swo
 *.DS_Store
+
+# Env user files (local/dev)
+.env.dev.user
+.env.local.user
